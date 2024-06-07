@@ -1,6 +1,5 @@
 package com.bvec.otp.config;
 
-import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,7 +20,7 @@ public class DatabaseConfigProperties {
     private String password;
     @Value("${db.url}")
     private String url;
-    @Value("${db.driver-class-name}")
+    @Value("${db.driver.class.name}")
     private String driverClassName;
 
 }
