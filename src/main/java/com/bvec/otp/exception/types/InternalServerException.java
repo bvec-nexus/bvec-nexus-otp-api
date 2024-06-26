@@ -9,9 +9,15 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 public class InternalServerException extends RuntimeException{
     private String errorMessage;
-    private String errorCode;
+    private int errorCode;
     private String errorDetails;
+
+    public InternalServerException(String errorMessage, int errorCode, String errorDetails) {
+        super(errorMessage);
+        this.errorMessage = errorMessage;
+        this.errorCode = errorCode;
+        this.errorDetails = errorDetails;
+    }
 }

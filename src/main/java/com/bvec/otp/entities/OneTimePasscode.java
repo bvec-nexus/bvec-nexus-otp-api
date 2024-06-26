@@ -1,5 +1,6 @@
 package com.bvec.otp.entities;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
@@ -17,24 +18,15 @@ import java.util.Date;
 public class OneTimePasscode {
 
     @Id
-    private String userId;
-
+    private String offerId;
     private String encryptedOtp;
-
     private String email;
-
     private Date createdTimestamp;
-
     private Date updatedTimestamp;
-
     private Date expiryTimestamp;
-
     private Date lockExpiryTimestamp;
-
     private Date acceptedTimestamp;
-
     private int failedAttemptCount;
-
     private int sendCount;
 
 }

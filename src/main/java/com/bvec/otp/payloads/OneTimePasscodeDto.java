@@ -1,9 +1,6 @@
 package com.bvec.otp.payloads;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.springframework.stereotype.Component;
 
 import java.util.Date;
@@ -12,26 +9,18 @@ import java.util.Date;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 @Component
 public class OneTimePasscodeDto {
 
-    private String userId;
-
+    private String offerId;
     private String encryptedOtp;
-
     private String email;
-
     private Date createdTimestamp;
-
     private Date updatedTimestamp;
-
     private Date expiryTimestamp;
-
     private Date lockExpiryTimestamp;
-
     private Date acceptedTimestamp;
-
     private int failedAttemptCount;
-
     private int sendCount;
 }

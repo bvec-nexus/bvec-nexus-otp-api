@@ -9,4 +9,6 @@ public class Constant {
     public static final int LOCKOUT_COUNT = 5;
 
     public static final int VALIDITY = 5;
+
+    public static final String USER_NOT_FOUND = "User not found";
 }

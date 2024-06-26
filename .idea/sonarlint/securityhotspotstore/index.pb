@@ -34,13 +34,11 @@ k
 ;src/main/java/com/bvec/otp/payloads/OneTimePasscodeDto.java,7\4\7458eaebb0dfc5c5539439f4c17156e1563af951
 h
 8src/main/java/com/bvec/otp/config/ModelMapperConfig.java,2\2\22ff544facc8fcb4d34734ffee299988aceb44f2
-a
-1src/main/java/com/bvec/otp/utils/GenerateOtp.java,7\b\7bfddd95ded1cc31844dc09845e3ad6d81d27831
-c
-3src/main/java/com/bvec/otp/utils/IsEmailLocked.java,8\7\8706a2ca757e3f4072dc1250dc92754c4037eb10
 j
 :src/main/java/com/bvec/otp/exception/model/ErrorModel.java,d\3\d3fed82281afc6505cd8afe841c2f80ceeb043b4
 w
 Gsrc/main/java/com/bvec/otp/exception/types/InternalServerException.java,4\8\48441b3a18463d18da5e80f7514e58167fcb363e
 p
 @src/main/java/com/bvec/otp/exception/GlobalExceptionHandler.java,e\8\e8f5b5a406dc61b7ab486575c5ef7054c6774436
+c
+3src/main/java/com/bvec/otp/utils/CommonUtility.java,8\d\8d15f4f9ed34f80ea7746b16da05587e23d49cdf
